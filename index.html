@@ -10,32 +10,31 @@
     
     <title>ScholarMatch - Find Scholarships You Actually Qualify For</title>
     
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar-styles.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%232563EB'>🎓</text></svg>">
 </head>
 <body>
-    <!-- Skip to main content link for accessibility -->
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
-        <div class="navbar-container">
-            <div class="navbar-brand">
-                <h1 class="logo">ScholarMatch</h1>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="ScholarMatch Logo" class="logo-icon">
+                    <h1 class="logo-text">ScholarMatch</h1>
+                </div>
+                <nav class="nav" role="navigation" aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Ralph</a></li>
+                        <li><a href="https://github.com/TohWangXin/C240_FA" target="_blank" class="nav-link">WangXin</a></li>
+                        <li><a href="#how-it-works" class="nav-link">Raelyn</a></li>
+                        <li><a href="#about" class="nav-link">Ee Weng</a></li>
+                        <li><a href="#about" class="nav-link">Aung Myin</a></li>
+                    </ul>
+                </nav>
             </div>
-            <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
-                <li><a href="#benefits" class="nav-link">Benefits</a></li>
-                <li><a href="#chatbot" class="nav-link">Ask AI</a></li>
-                <li><a href="#footer" class="nav-link">Contact</a></li>
-            </ul>
         </div>
-    </nav>
+    </header>
 
     <!-- Main Content -->
     <main id="main-content">
@@ -45,7 +44,8 @@
                 <div class="hero-content">
                     <h2 class="hero-title">Find Scholarships You Actually Qualify For</h2>
                     <p class="hero-subtitle">
-                        Stop wasting time on scholarships you can't get. ScholarMatch uses AI to instantly show you real opportunities tailored to you.
+                        Stop wasting time on scholarships you can't get.<br>
+                        ScholarMatch uses AI to instantly show you real opportunities tailored to you.
                     </p>
                     <button class="btn btn-primary btn-large" id="launch-assistant" aria-label="Launch Scholarship Assistant chatbot">
                         Launch Scholarship Assistant
