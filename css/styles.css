@@ -94,6 +94,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 5rem;
 }
 
 /* Logo */
@@ -112,13 +113,13 @@ body {
 }
 
 .logo-icon {
-    height: 100px;
+    height: 90px;
     width: auto;
     display: block;
 }
 
 .logo-text {
-    font-size: var(--font-size-xl);
+    font-size: 22px;
     font-weight: 700;
     color: var(--color-primary);
     margin: 0;
@@ -128,7 +129,8 @@ body {
 .nav {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-left: 10rem;
 }
 
 .nav-list {
@@ -137,12 +139,18 @@ body {
     gap: var(--spacing-lg);
 }
 
+.nav-list li {
+    flex: 1;
+    text-align: center;
+}
+
 .nav-link {
     color: var(--color-neutral-dark);
     text-decoration: none;
     font-weight: 500;
     transition: color var(--transition-fast);
     padding: var(--spacing-xs) 0;
+    display: block;
 }
 
 .nav-link:hover,
