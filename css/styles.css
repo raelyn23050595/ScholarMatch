@@ -123,6 +123,7 @@ body {
     transition: color var(--transition-fast);
     padding: var(--spacing-xs) 0;
     display: block;
+    font-size: 0.85rem;
 }
 
 .nav-link:hover,
