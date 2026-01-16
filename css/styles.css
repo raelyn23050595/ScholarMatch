@@ -423,6 +423,7 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .footer-section h3,
